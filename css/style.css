@@ -364,7 +364,11 @@ header {
 .dashboard {
   background:#f7f7f7;
 }
-
+.activepage {
+  background-color: #213246;
+  padding: 10px;
+  margin:0 -10px;
+}
  .left-nav {
    height: 100vh;
    width:14.66666667%;
