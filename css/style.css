@@ -106,13 +106,13 @@ header {
    text-align: center;
  }
  header .hero h1 {
-   font-size:37px;
+   font-size:30px;
    font-weight: bold;
    margin:20% 0 0;
  }
  header .hero p {
-   font-size: 27px;
-   line-height: 35px;
+   font-size: 18px;
+   line-height: 30px;
    font-weight: 200;
    margin:10px 10px 50px;
  }
@@ -292,15 +292,12 @@ header {
   .testimonials p {
     width:80%;
     margin:2em auto;
-    font-size:25px;
-    line-height:38px;
-    color:#fff;
  }
  .testimonials img {
     width:100%;
  }
  .testimonials h1{
-   margin-top: 3em;
+   margin-top: 1em;
  }
  .testimonials p.name {
    float: left;
@@ -679,6 +676,23 @@ header {
      width:31.33333%;
      margin:0 1% 25px;
    }
+    header .hero h1 {
+   font-size:37px;
+   font-weight: bold;
+   margin:20% 0 0;
+ }
+ header .hero p {
+   font-size: 27px;
+   line-height: 37px;
+   font-weight: 200;
+   margin:10px 10px 50px;
+ }
+  .testimonials h1{
+   margin-top: 3em;
+ }
+    h1 {
+  font-size: 2em;
+}
 
  }
  
@@ -749,7 +763,14 @@ header {
      -moz-transform: translate(0,0); /** Firefox **/
    }
 
-  
+   h1 {
+  margin: .5em 0;
+}
+p {
+    font-size: 19px;
+    line-height: 29px;
+    font-weight: 100;
+}
    .hamburger {
      display:none;
    }
