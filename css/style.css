@@ -396,6 +396,7 @@ header {
  }
 
   .left-nav.open {
+    background:#148C92;
    display:block;
    width:280px;
    -webkit-transition: all 0.3s ease-in-out;
@@ -480,6 +481,7 @@ header {
    padding-top: 8px;
    font-weight: 400;
    margin:0 0 0 10px;
+   color:#FFFFFF;
  }
  .left-nav .settings a {
    color:#FFFFFF;
