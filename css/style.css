@@ -27,8 +27,8 @@ html, body{
 
  .container {
    margin: auto;
-   padding-left:15px;
-   padding-right:15px;
+   padding-left:10px;
+   padding-right:10px;
    position: relative;
  }
  .container:before,
@@ -132,20 +132,26 @@ header {
    color:#FFFFFF;
    font-weight: 100;
    text-decoration: none;
-   padding:10px 30px;
    background: #F5A623;
    box-shadow: 0px 3px 0px 0px #B47A1A;
+   padding:10px 30px;
  }
 
-  .btn-dash {
+.btn-dash {
+   padding:5px 10px;
+   margin-left:5%;
+   margin-right:5%;
    border-radius: 4px;
+   background: #F5A623;
+   box-shadow: 0px 3px 0px 0px #B47A1A;
+
+ }
+
+ .btn-dash a{
    color:#FFFFFF;
    font-weight: 100;
    text-decoration: none;
-   padding:5px 10px;
-   background: #F5A623;
-   box-shadow: 0px 3px 0px 0px #B47A1A;
-   margin-top:100px;
+
  }
 
  /* BENEFITS */
@@ -490,15 +496,17 @@ header {
    font-weight: 400;
    margin:0 0 0 10px;
    color:#FFFFFF;
-   font-size:16px;
+   font-size:14px;
 
  }
+
  .left-nav .settings a {
    color:#FFFFFF;
    text-decoration: none;
    text-align: right;
    margin:0px 15px 0px ;
  }
+
 
  /* CONTENT */
  .content {
@@ -531,7 +539,6 @@ header {
  }
 
   .item-box {
-   display:block;
    height:230px;
    background: #FFFFFF;
    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.10);
@@ -573,10 +580,24 @@ header {
    color: #848282;
    line-height: 22px;
    margin:10px 0 0;
+
  }
 
  /*item hover*/
+
   .edit{
+   opacity: 1;
+   height:50px;
+   background-color:#353534;
+   z-index:100;
+   position:absolute;
+   bottom:0;
+   left:0;
+   right:0;
+   display:block;
+ }
+
+ .item-box > .edit{
    opacity: 0;
    height:50px;
    background-color:#353534;
@@ -588,7 +609,7 @@ header {
    display:block;
  }
 
-  .edit:hover{
+  .item-box:hover > .edit{
    opacity: 1;
    height:50px;
    background-color:#353534;
@@ -618,13 +639,14 @@ header {
 
  .edit li{
   float:left;
-  margin:14px 5px 0 14px;
+  margin:12px 3px 0 14px;
 }
 
  .edit li a{
   display:block;
   text-decoration:none;
   color:#39D3CA;
+  font-size:20px;
 }
 
  /*Media Queries*/
@@ -668,6 +690,10 @@ header {
      .container {
      width: 475px;
    }
+     .container {
+      padding-left:15px;
+      padding-right:15px;
+     }
      .one-third {
      width:96%;
    }
